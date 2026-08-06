@@ -5,7 +5,7 @@ import shutil
 
 class FileOrganizer:
 
-    def __init__(selff, directory):
+    def __init__(self, directory):
         self.directory = Path(directory)
         self.moved = 0
         self.skipped = 0
