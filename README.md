@@ -1,6 +1,6 @@
 from pathlib import Path
 from datetime import datetime
-import shutilf
+import shutil
 
 
 class FileOrganizer:
